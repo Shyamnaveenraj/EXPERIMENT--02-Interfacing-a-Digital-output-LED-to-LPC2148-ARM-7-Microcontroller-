@@ -1,10 +1,8 @@
 # EXPERIMENT-02-Interfacing-a-Digital-output-LED-to-LPC2148-ARM-7-Microcontroller
 
 ## Interfacing a Digital output (LED) to LPC2148 ARM 7 Microcontroller 
-
 # AIM:
 To Interface a Digital output (LED) to LPC2148 ARM 7 and write a blink code.
-
 # COMPONENTS REQUIRED:
 Proteus ISIS professional suite, Kiel μ vision 5 Development environment.
 # THEORY: 
@@ -115,7 +113,6 @@ Step 10: Select the hex file from the Kiel program folder and import the program
 # KIEL - PROGRAM FOR LED BLINKING ON AND OFF (BLINKING):
 ```
 #include <lpc214x.h>
-
 void delay_ms(unsigned int count)
 {
   unsigned int j=0,i=0;
@@ -143,11 +140,12 @@ int main()
 ```
 
 # OUTPUT:
+## Display Off:
 ![output](1.png)
-![output](2.png)
+## Display On:
 ![output](3.png)
- 
+## Layout Diagram:
+![output](2.png)
+
 # RESULT:
 Interfacing a digital output with ARM microcontroller is executed. 
-
-
